@@ -22,6 +22,8 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: layout
+        default: post.njk
   - name: site
     label: Site settings
     path: src/_data/site.json
