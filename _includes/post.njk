@@ -1,5 +1,8 @@
 {% extends "_includes/default.njk" %}
 
+{% block content %}
 <article style="prose">
-	{{ content }}
+	{{ content | safe }}
 </article>
+
+{% endblock %}
