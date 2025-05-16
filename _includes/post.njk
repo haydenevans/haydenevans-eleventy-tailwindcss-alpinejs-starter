@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>My Rad Nunjucks Blog Post</title>
-	</head>
-	<body >
-        <article style="prose">
-         {{ content | safe }}
-         </article>
-	</body>
-</html>
+{% extends "_includes/default.njk" %}
+
+{% block title %}It does work{% endblock %}
+
+
+  <article style="prose">
+	{{ content | safe }}
+	</article>
