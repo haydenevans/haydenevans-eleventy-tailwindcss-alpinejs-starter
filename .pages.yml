@@ -23,6 +23,7 @@ content:
         label: Body
         type: rich-text
       - name: layout
+        type: string
         default: post.njk
   - name: site
     label: Site settings
